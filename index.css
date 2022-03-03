@@ -46,7 +46,7 @@ body {
   border-radius: 10rem;
   width: 50%;
   transition: all 0.2s;
-  margin-right: -3.25rem;
+  margin-right: -5rem;
 }
 .search__input:focus {
   outline: none;
@@ -58,11 +58,17 @@ body {
   color: rgb(24, 23, 23);
 }
 .search__input:focus + .search__button {
-  background-color: gray;
+  background-color: #fff;
 }
 .search__button {
   border: none;
-  background-color: rgb(212, 209, 209);
+  background-color: #fff;
+  width:5rem;
+  height: 4.5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .search__button:focus {
   outline: none;
@@ -73,7 +79,6 @@ body {
 .search__icon {
   width: 2rem;
   height: 2rem;
-  fill: var(--color-grey-dark-3);
 }
 .nba-container {
   width: 80%;
@@ -86,4 +91,8 @@ body {
 }
 .nba-header {
   margin: 2rem 0;
+}
+.span-name{
+  text-transform: uppercase;
+  font-weight: 500;
 }
