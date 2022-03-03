@@ -15,23 +15,24 @@
       <div class="content">
         <div class="search_container">
           <form action="#" class="search">
-            <input
-              type="search"
-              class="search__input"
-              placeholder="Search players"
-            />
-            <button class="search__button">
-               <img src="assets/search_icon.png" alt="search" class="search__icon">
-            </button>
+            <label for="address">Do you have a favorite NBA team?</label>
+        <select
+          id="address"
+          name="address"
+          placeholder="Choose your favorite team"
+        >
+        <option value="" default>Choose your favorite team</option>
+        </select>
+        <span class="span"></span>
           </form>
         </div>
 
-        <div class="nba-container">
-          <h1 class="nba-header nba_grid">
+        <div class="nba_container">
+          <h1 class="nba_header nba_grid">
             <p class="nba_sn">SERIAL NO</p>
             <p class="nba_name">NAME</p>
-            <p class="nba_position">POSITION</p>
-            <p class="nba_team">TEAM</p>
+            <p class="nba_fullteam">OFFICIAL TEAM NAME</p>
+            <p class="nba_team">TEAM NAME</p>
           </h1>
         </div>
       </div>
